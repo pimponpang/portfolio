@@ -78,7 +78,8 @@ img { display:block; }
 .profile-head { display:grid; grid-template-columns:.8fr 1.2fr; gap:88px; align-items:start; }
 .profile-head h2 { margin-top:16px; font-size:clamp(3rem,5vw,4.8rem); line-height:1.2; }
 .profile-head>div:first-child>p:last-child { margin-top:12px; color:var(--muted); font-size:.875rem; }
-.profile-head>div:last-child>p:first-child { color:var(--muted); font-size:1rem; line-height:2; }
+.profile-copy>p:not(.current-role) { color:var(--muted); font-size:1rem; line-height:2; }
+.profile-copy>p:not(.current-role)+p:not(.current-role) { margin-top:20px; }
 .current-role { margin-top:24px; font-size:.8125rem; line-height:1.9; }
 .skills { margin-top:62px; display:grid; grid-template-columns:repeat(3,1fr); gap:52px; }
 .skills h3 { margin-top:16px; font-size:1.0625rem; line-height:1.6; }

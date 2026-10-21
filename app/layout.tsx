@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "堀内 浩｜ポートフォリオ",
-  description: "堀内浩のポートフォリオ。デジタルとリアルをつなぐサービス設計、UI/UX、ブランド、業務と運用のデザインを紹介します。",
+  description: "堀内浩のポートフォリオ。仕組みをデザインする。20年以上のWeb制作経験を礎に、事業・技術・ユーザー体験をつなぐUI/UXデザイナー。",
   robots: { index: false, follow: false },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
